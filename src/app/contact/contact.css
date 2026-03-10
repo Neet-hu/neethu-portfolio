@@ -1,0 +1,18 @@
+.contact-links{
+margin-top:30px;
+}
+
+.contact-links a{
+display:inline-block;
+margin-right:20px;
+padding:10px 20px;
+border:1px solid #ffb000;
+border-radius:20px;
+color:#ffb000;
+text-decoration:none;
+}
+
+.contact-links a:hover{
+background:#ffb000;
+color:black;
+}

@@ -1,0 +1,12 @@
+.stats{
+display:flex;
+justify-content:space-around;
+padding:60px;
+background:#050505;
+border-top:1px solid #222;
+}
+
+.stats h2{
+color:#ffb000;
+font-size:40px;
+}

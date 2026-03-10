@@ -1,0 +1,36 @@
+<section id="projects" class="projects-section">
+
+<div class="projects-header">
+
+<div>
+<p class="section-number">03 — PROJECTS</p>
+<h2>Featured <span class="highlight">Work</span></h2>
+</div>
+
+<p class="section-desc">
+A collection of projects showcasing expertise in AI, ML, and full-stack development.
+</p>
+
+</div>
+
+<div class="projects-grid">
+
+<div class="project-card" *ngFor="let proj of projects">
+
+<span class="badge">{{proj.highlight}}</span>
+
+<h3>{{proj.title}}</h3>
+
+<p class="subtitle">{{proj.subtitle}}</p>
+
+<p class="description">{{proj.description}}</p>
+
+<div class="tags">
+<span *ngFor="let tag of proj.tags">{{tag}}</span>
+</div>
+
+</div>
+
+</div>
+
+</section>

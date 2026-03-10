@@ -1,0 +1,29 @@
+.tech-bar{
+overflow:hidden;
+border-top:1px solid #111;
+border-bottom:1px solid #111;
+background:#050505;
+padding:20px 0;
+}
+
+.marquee{
+white-space:nowrap;
+overflow:hidden;
+}
+
+.track{
+display:inline-block;
+animation:scroll 20s linear infinite;
+}
+
+.track span{
+margin-right:60px;
+color:#888;
+letter-spacing:2px;
+font-size:14px;
+}
+
+@keyframes scroll{
+0%{transform:translateX(0);}
+100%{transform:translateX(-50%);}
+}

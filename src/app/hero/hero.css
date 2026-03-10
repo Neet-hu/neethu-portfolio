@@ -1,0 +1,116 @@
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 80px;
+background:#050505;
+color:white;
+min-height:90vh;
+gap:60px;
+}
+
+/* LEFT SIDE */
+
+.hero-left{
+max-width:600px;
+animation: slideUp 1s ease forwards;
+}
+
+.intro{
+color:#888;
+letter-spacing:3px;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.name{
+font-size:28px;
+font-weight:500;
+margin-bottom:10px;
+}
+
+.role{
+font-size:80px;
+font-weight:800;
+margin:0;
+}
+
+.role span{
+color:#ffb000;
+}
+
+.description{
+margin-top:25px;
+font-size:18px;
+color:#aaa;
+line-height:1.6;
+}
+
+/* BUTTONS */
+
+.hero-buttons{
+margin-top:35px;
+display:flex;
+gap:20px;
+}
+
+.btn{
+padding:12px 26px;
+border-radius:8px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.primary{
+background:#ffb000;
+color:black;
+}
+
+.primary:hover{
+background:#ffc933;
+}
+
+.secondary{
+border:1px solid #ffb000;
+color:#ffb000;
+}
+
+.secondary:hover{
+background:#ffb000;
+color:black;
+}
+
+/* IMAGE */
+
+.hero-right img{
+width:320px;
+border-radius:20px;
+border:3px solid #ffb000;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+animation: fadeIn 1.5s ease;
+}
+
+/* ANIMATIONS */
+
+@keyframes slideUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:scale(0.9);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}

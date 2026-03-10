@@ -114,3 +114,41 @@ opacity:1;
 transform:scale(1);
 }
 }
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+padding:80px 20px;
+gap:40px;
+}
+
+.hero-left{
+max-width:100%;
+}
+
+.role{
+font-size:48px;
+}
+
+.name{
+font-size:22px;
+}
+
+.description{
+font-size:16px;
+}
+
+.hero-buttons{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.hero-right img{
+width:220px;
+}
+
+}

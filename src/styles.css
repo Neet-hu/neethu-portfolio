@@ -198,3 +198,12 @@ transition:all 0.8s ease;
 opacity:1;
 transform:translateY(0);
 }
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+overflow-x:hidden;
+}
